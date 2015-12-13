@@ -4,21 +4,26 @@ set fileencodings=utf-8,cp950
 
 call plug#begin('~/.vim/plugged')
 
-" manage
+" interface
 Plug 'Shougo/unite.vim'
-Plug 'Shougo/vimfiler.vim' " depends on unite.vim
+Plug 'Shougo/vimfiler.vim'      " depends on unite.vim
 
-" syntax
-Plug 'vim-scripts/Syntastic'
+Plug 'bling/vim-airline'        " buffer name display + file status
+
+" Utility
+Plug 'Yggdroot/indentLine'
 
 " color
 Plug 'tomasr/molokai'
+
+" syntax
+Plug 'vim-scripts/Syntastic'
 
 " html5
 Plug 'mattn/emmet-vim'
 
 
 " other tool
-" Plug 'dansnow/block.vim'
+Plug 'dansnow/block.vim'
 
 call plug#end()

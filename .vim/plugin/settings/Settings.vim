@@ -1,9 +1,20 @@
 set number
 set numberwidth=4
 
-set smarttab    " insert <TAB> on the start of the line according last line
-set expandtab   " replace <TAB> with spaces
+set smarttab      " insert <TAB> on the start of the line according last line
+set expandtab     " replace <TAB> with spaces
+set shiftwidth=2  " <TAB> = 2 spaces
+set tabstop=2     " make <TAB> most equal 2 space
+set showtabline=2
 
+set hlsearch
+set incsearch
+
+set laststatus=2
+set statusline=%4*%<\%m%<[%f\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Position=%l,%v,%p%%]
+
+
+" set nobomb
 
 filetype on
 filetype indent on
