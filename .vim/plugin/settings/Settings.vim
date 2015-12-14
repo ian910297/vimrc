@@ -14,6 +14,9 @@ set laststatus=2
 set statusline=%4*%<\%m%<[%f\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Position=%l,%v,%p%%]
 
 
+set encoding=utf-8
+set fileencodings=utf-8,cp950
+
 " set nobomb
 
 filetype on

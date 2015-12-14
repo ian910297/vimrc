@@ -1,7 +1,3 @@
-set encoding=utf-8
-set fileencodings=utf-8,cp950
-
-
 call plug#begin('~/.vim/plugged')
 
 " interface
@@ -37,7 +33,6 @@ Plug 'hail2u/vim-css3-syntax'
 
 " other tool
 Plug 'DanSnow/block.vim'
-Plug 'jiangmiao/auto-pairs'
-
+Plug 'Raimondi/delimitMate'
 
 call plug#end()
