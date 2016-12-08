@@ -5,6 +5,7 @@ Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'  " depends on unite.vim
 
 Plug 'bling/vim-airline'    " buffer name display + file status
+Plug 'vim-airline/vim-airline-themes'
 
 " Utility
 Plug 'Yggdroot/indentLine'
